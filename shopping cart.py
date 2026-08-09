@@ -1,0 +1,16 @@
+items = ["shirt","jeans","shoes","watch"]
+prices = [500,1200,2000,800]
+print("Items:",items)
+print("Prices:",prices)
+print("Total Items:",len(items))
+print("Highest Price:",max(prices))
+print("Lowest Price:",min(prices))
+print("Total Price:",sum(prices))
+item=input("enter item to search:")
+print("Available:",item in items)
+items.append("Bag")
+prices.append(700)
+print("Updated Items:",items)
+print("Updated Prices:",prices)
+print("Updated total:",sum(prices))
+print("Sorted prices:",sorted(prices))
